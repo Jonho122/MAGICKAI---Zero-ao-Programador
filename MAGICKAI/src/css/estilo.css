@@ -1,0 +1,59 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+.cabecalho {    
+    background-color: #2b00a0;    
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 60px;
+}
+
+.container {
+
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.container .produtos {
+    background-color: #ffffff;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 32px;
+    line-height: 32px;
+    letter-spacing: 2px;
+}
+
+.container .filtros {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+}
+
+.container .categorias-cartas, .container .preco-cartas {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.container label{
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #2b00a0;
+}
+.container .categorias-cartas select, .container .preco-cartas input {
+    padding: 16px 13px;
+    border: 2px solid #3100b9;
+    border-radius: 2px;
+    height: 52px;
+    color: #2b00a0;
+    background-color: #ffffff;
+}
+
+.container select:focus,
+.container input:focus 
+.container select:focus-visible,
+.container  input:focus-visible {
+    outline: none;
+    border-color: #2b00a0;
+}
